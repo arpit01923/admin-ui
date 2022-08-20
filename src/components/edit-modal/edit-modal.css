@@ -1,0 +1,35 @@
+
+.edit-modal {
+  background-color: var(--blur);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.edit-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--white-color);
+  width: 20rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--black-color);
+}
+
+.edit-form input {
+  padding: 0.2rem;
+}
+
+.edit-form button {
+  width: 5rem;
+  padding: 0.2rem;
+  margin: auto;
+  margin-top: 1rem;
+}

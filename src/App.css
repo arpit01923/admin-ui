@@ -6,6 +6,9 @@
 
 :root {
   --red-color: red;
+  --black-color: black;
+  --white-color: white;
+  --blur: rgba(0,0,0,0.27);
 }
 
 .divider {

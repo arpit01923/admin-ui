@@ -1,12 +1,7 @@
 import { AiFillEdit, AiFillDelete } from "react-icons/ai";
 import "./list.css";
 
-export const List = ({ userData, setUserData }) => {
-  const deleteHandler = (userId) => {
-    const filteredData = userData.map((user) => user.id !== userId);
-    setUserData(filteredData);
-  };
-
+export const List = ({ userData, deleteHandler, editHandler }) => {
   return (
     <>
       {userData.map((user) => (
@@ -17,7 +12,10 @@ export const List = ({ userData, setUserData }) => {
             <p>{user.email}</p>
             <p>{user.role}</p>
             <p className="action">
-              <AiFillEdit className="icon edit" />
+              <AiFillEdit
+                className="icon edit"
+                onClick={() => editHandler(user.id)}
+              />
               <AiFillDelete
                 className="icon delete"
                 onClick={() => deleteHandler(user.id)}
