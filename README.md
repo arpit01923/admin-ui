@@ -1,5 +1,5 @@
 # Admin UI
-We provide you an Users API to list all the users and their properties.
+Provide users API to list all the users and their properties.
 
 
 ### Functionalities
