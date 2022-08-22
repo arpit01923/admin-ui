@@ -1,6 +1,6 @@
 .searchbar {
   width: 100%;
-  padding: 0.2rem 0.5rem;
+  padding: 0.5rem;
 }
 
 .header {
@@ -17,4 +17,16 @@
 .footer {
   margin: 1rem;
   display: flex;
+}
+
+.footer button {
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.footer > button {
+  background-color: var(--red-color);
+  color: var(--white-color);
+  border: none;
 }
