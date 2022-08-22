@@ -1,0 +1,19 @@
+.list {
+  list-style: none;
+}
+
+.list-item {
+  margin: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action .icon {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.action .delete {
+    color:  var(--red-color);
+}

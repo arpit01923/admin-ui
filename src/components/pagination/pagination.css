@@ -1,0 +1,11 @@
+.pagination .list {
+  display: flex;
+}
+
+.pagination .list-item button {
+  padding: 0.2rem 0.5rem;
+  border-radius: 50%;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
